@@ -1,0 +1,610 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+header a{
+	font-size: 1.1em;
+	color: whitesmoke !important;
+	transition: 3s;
+}
+
+header .active a{
+	color: #00fffb !important;
+}
+
+header .nav-item:last-child{
+	padding-right: 7em;
+}
+
+header .nav-item{
+	padding: 0.2em;
+}
+
+header .icon{
+	margin-left: 5rem;
+	background-color: red;
+	padding-left: 1.2rem;
+	border-radius: 3px;
+}
+
+header .fas{
+	padding-right: 1.5vmin;
+}
+
+
+header .btn{
+	color: white;
+
+}
+
+
+header ul li a:hover{
+	border-radius: 6px;
+	color: #00fffb !important;
+	transform: scale(1.6,1.6);
+	transition: 5s;
+}
+
+header .row .col-md-5{
+	padding: 30vmin 1vmin;
+	padding-bottom: 25vmin;
+}
+
+header .row .col-md-7{
+	padding-top: 20px;
+}
+
+header .row .col-md-7 img{
+	width: 100%;
+	transition: 3s;
+	padding-top: 12vmin;
+}
+
+header .row .col-md-7 img:hover{
+	width: 100%;
+	transform: scale(1.05,1.05);
+	transition: 3s;
+}
+
+header .row .col-md-5 h1{
+	font-weight:bold;
+	padding: 0.1em 0em;
+	transition: 3s;
+}
+
+header .row .col-md-5 h1:hover{
+	transform: scale(1.05,1.05);
+	transition: 3s;
+}
+
+header .row .col-md-5 p{
+	padding: 1vmin 5vmin;
+}
+
+header .row .col-md-5 p:hover{
+	padding: 1vmin 5vmin;
+	transform: scale(1.05,1.05);
+	transition: 3s;
+}
+
+section .rect{
+	width: 90%;
+	height: 12em;
+	margin: 1rem;
+	border-radius: .5em;
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.3);
+}
+
+section .rect:hover{
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.6);
+	
+}
+
+
+
+.section1 .rect h3
+{
+	font-size: 3rem;
+	padding-top: 55px;
+	font-weight:bold;
+	color: hotpink;
+	font-style: bold;
+}
+
+.section1 .rect p
+{
+	font-size: 2rem;
+	font-weight: bold;
+	color: mediumpurple;	
+}
+
+.section2{
+	margin-top: 13vmin;
+}
+
+.section2 .heading 
+{
+	background-color:rgb(0, 128, 128);
+	padding: 0.5rem;
+	box-sizing: border-box;
+	padding-left: 1.5rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px 5px 2px 2px; 
+	color: whitesmoke;
+}
+
+.section2 .heading h4
+{
+	font-weight: bold;
+	margin-top: 7px;
+}
+
+
+.section2 img{
+	width: 80%;
+	display: block;
+	position: relative;;
+	left: 10%;
+	
+	border-radius: 10px;
+	transition: 2s;
+}
+
+.section2 img:hover{
+	transform: scale(1.1,1.1);
+	transition: 2s;
+}
+
+
+.section2 .card-item{
+	padding-top: 27px;
+}
+
+.section2 .card{
+	margin-top:20px;
+	margin-bottom: 20px;
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.2);
+	transition: 1s;
+}
+
+.section2 .card:hover{
+	margin-top:20px;
+	margin-bottom: 20px;
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.4);
+	transform: scale(1.1,1.1);
+	transition: 1s;
+}
+
+.section2 .row .col-md-3+.col-md-3{
+	
+}
+
+.section2 .btn{
+	border-radius: 4px;
+	padding-right: 12px;
+	padding-left: 12px;
+	font-size: 0.93rem;
+
+}
+
+.section2 p,h5{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+.section2 .card-text span{
+	display: block;
+	font-size: 16px;
+}
+
+.section2 .rating{
+	color: gold;
+}
+
+.section2 .bottom{
+	background-color:rgb(0, 128, 128);
+	padding: 0.5rem;
+	box-sizing: border-box;
+	padding-left: 1.5rem;
+	margin-top: 20px;
+	border-radius: 2px 2px 5px 5px; 
+	color: whitesmoke;
+}
+
+.section2 .bottom a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.section2 .bottom a h4{
+	margin-top: 7px;
+}
+
+footer .container-fluid{
+	background-color:#1C2833 ; 
+	height: 290px;
+	margin-top: 5em;
+	color: whitesmoke;
+	padding: 5em;
+}
+
+
+footer .container-fluid i{
+	padding: 0.2em;
+	font-weight:5rem;
+	font-size: 1.5rem;	
+}
+
+ footer .container-fluid span{
+	display: block;
+}
+
+footer ul{
+	list-style: none;
+	padding:0;
+	margin: 0;
+}
+
+footer h4::before{
+	content: '|';
+	color: #c65039;
+	display: inline-block;
+	padding-right: 10px;
+
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: hotpink;
+}
+
+
+footer .col-md-6,.col-md-3{
+	margin-top: 15px;
+}
+
+
+
+/*Sign Up Style*/
+html,body{
+	height: 100%;
+}
+
+.form-main
+{
+    height: 100%;
+    background: url('../Images/doctorbackground2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.login-Form
+{
+    background:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px 30px 10px 0;
+    
+}
+
+.login-Form .title
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-form
+{
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.login-Form p{
+	margin-bottom: 20px;
+}
+
+.message {
+	
+	position: relative;
+	margin-left: 10px;
+}
+
+.input-form .input
+{
+    width: 100%;
+    padding: 10px;
+    padding-left: 80px;
+    font-size: 18px;
+    font-size: 15px;
+    border: transparent;
+    color: white;
+    border-bottom-right-radius: 8px;
+    background:rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+.input-form::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background:#808080;
+}
+
+.input-form::after
+{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 70px;
+    width: 3px;
+    height: 80%;
+    background: #434e4a;
+}
+
+.input-form .fa
+{
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.form-main .btn{
+	border-radius: 2px;
+	padding: 8px;
+	width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.footer-signup p{
+	color: whitesmoke;
+}
+
+.footer-signup p span a{
+	color: #8BFF00 ;
+	text-decoration: none;
+}
+
+
+.form-main .col-lg-4 .btn{
+	
+	width: 90px;
+	margin-top: 20px;
+}
+
+.form-main .col-lg-4 span{
+	margin-left: 3px;
+}
+
+
+
+/*Dcotor html*/
+
+
+.section2 .search-btn{
+	border-radius: 5px;
+	padding: 5.6px 15px 5.5px 15px;
+	margin-left: 5px;
+	width: 20%;
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.4);
+}
+
+ input[type=search]
+{
+	width: 70% !important;
+	box-shadow: 1px 2px 50px 1px rgba(255,0,0,0.4);
+
+}
+.doc .doc-title h5{
+	width: 100%;
+}
+
+.doc-section1 .offer
+{
+	color: white;
+	background: linear-gradient(180deg,#00e8ff,#e6dde0);
+	margin-top: 60px;
+	height: 100px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.doc .section2{
+	margin-top: 0px;
+}
+
+.doc .filter-item
+{
+	
+	
+	background: darkgray; 
+	padding-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.doc .btn-danger{
+	padding: 5px 10px 5px 10px;
+	width: 100%;
+	font-size: 17px;
+}
+
+/*doctor profile**/
+
+.docporfile{
+	margin-top: 100px;
+}
+
+
+.docporfile .tab a{
+	padding-right: 100px;
+	padding-left: 100px;
+	font-weight: bold;
+}
+
+
+.docporfile .overview{
+	padding: 15px;
+}
+
+.docporfile .tab1-item p span{
+	display: block;
+	margin-left: 20px;
+}
+
+.docporfile .tab1-item span::before{
+	content: "|";
+	background: gray;
+	border-radius: 3px;
+	margin-right: 20px;	
+}
+
+.appionment-card{
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.3);
+	padding: 15px 15px 5px 15px;
+	text-align: center;
+	margin-bottom: 8px;
+	border-radius: 50px;
+
+}
+
+.appionment-card  i{
+	padding: 0px 15px 0px 15px;
+	font-size: 20px;
+}
+
+
+/*Admin*/
+.admin{
+overflow: hidden;
+}
+
+.admin .menu {
+	margin: 0;
+	background: red;
+	height: 92vh;
+	padding: 60px 0px 10px 40px;
+}
+
+.admin .menu li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+.admin .menu span{
+	color: white;
+	font-size: 25px;
+}
+.admin .menu a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.patient-review{
+	margin-top: 30px;
+	box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.3);
+	height: 15rem;
+	padding: 30px;
+}
+
+.presence
+{
+	overflow-x: scroll;
+	
+	height: 10rem;
+}
+
+.statistic .col-md-3{
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+.statistic .col-md-3 span{
+	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 15px;
+}
+
+.statistic .col-md-9{
+	margin-top: 3px; 
+	margin-left: 0px; 
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+
+
+.admin-nav li{
+	margin-right: 20px;
+}
+
+/*Admin Doctor Add*/
+.doctor-add span{
+	padding: 6px;
+}
+
+.doctor-add .error{
+	color: red;
+}
+
+.doctor-add .inputs input{
+	width: 60%;
+	outline: none;
+}
+
+.doctor-add .group input{
+
+	border:1px solid rgba(0,0,0,0.2);
+	padding: 4px 0px 4px 12px;
+	border-radius: 5px;
+}
+
+.alert{
+	display: block;
+}
+
+.alert-close{
+	display: none;
+}
+
+/*Doctor Manage*/
+
+.doctor-manage tr td .btn{
+	padding: 2px 10px 2px 10px;
+	border-radius: 3px;
+	
+}
+
+/*Appointment*/
+.doc-appointment .form{
+	margin-top: 20px;
+}
